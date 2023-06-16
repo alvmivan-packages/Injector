@@ -67,6 +67,14 @@ namespace Injector.Runtime.Core
             _instances.Remove(typeof(T));
         }
 
+        void ClearAll()
+        {
+            _implementations.Clear();
+            _instances.Clear();
+        }
+
+
+        public void Dispose() => ClearAll();
 
         private bool TryGetExtraDep(Type type, out object instance)
         {
