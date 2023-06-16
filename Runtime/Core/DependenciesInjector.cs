@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Injector
+namespace Injector.Runtime.Core
 {
     public interface IDependenciesInjector
     {

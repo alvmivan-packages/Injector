@@ -1,6 +1,6 @@
 ﻿using Injector.Runtime.Core;
 
-namespace Injector
+namespace Injector.Runtime
 {
     public static class Injection
     {

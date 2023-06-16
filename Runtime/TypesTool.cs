@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace Injector
+namespace Injector.Runtime
 {
     public class TypesTool
     {
